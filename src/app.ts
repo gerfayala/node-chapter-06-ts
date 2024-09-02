@@ -3,14 +3,6 @@ import { ServerApp } from "./presentation/server-app";
 
 
 
-// console.log(process.argv);
-
-
-
-// console.log(yarg.b);
-
-
-
 //Funcion Anonima Autoejecutable
 
 ( async () => {
