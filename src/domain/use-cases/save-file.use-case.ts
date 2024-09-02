@@ -10,7 +10,7 @@ export interface SaveFileUseCase {
 export interface SaveFileOptions {
     fileContent : string;
     path?       : string;
-    fileName    : string;
+    fileName?    : string;
 }
 
 
@@ -40,7 +40,7 @@ export class SaveFile implements SaveFileUseCase{
         return true;
             
         } catch (error) {
-            console.log(error);
+            //console.log(error);
             return false;
         }
 
